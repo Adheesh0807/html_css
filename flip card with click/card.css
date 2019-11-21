@@ -1,0 +1,78 @@
+ {
+  box-sizing: border-box;
+}
+.hoverc {
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+}
+.card
+{
+  border: solid black 2px;
+  height: 150px;
+  width: 175px;
+  margin-left: 0px;
+  margin-top: 20px;
+
+   border-radius: 10px;
+ background-color: white;
+font-size: 20px;
+ transition: transform 10s;
+  transform-style: preserve-3d;
+}
+
+
+.card:hover{
+  box-shadow: #ffc921 5px 10px;
+  display: block;
+
+  
+}
+.row
+{
+ 
+display: inline-block;
+margin: 0 -3px; 
+
+}
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 30px;
+
+}
+.column
+{
+
+margin-left: 10px;
+width: 250px;
+padding-left: 3px;
+padding-top: 5px;
+padding-right: 0px;
+float: left;
+
+}
+
+.huse
+{
+
+  padding-left: 55px;
+  width: 65px;
+  height: 65px;
+}
+h3
+{
+  padding-top: -5px;
+  padding-left: 15px;
+  color: lime;
+
+
+}
+font
+{
+  font-family: 'Baloo Bhai', cursive; 
+}
+.mny
+{}
